@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+.color{
+    background-color: white;
+}
+.backban{
+    margin-top: -8px;
+
+}
+.ban{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+#navegador{
+position: relative;
+width: 95%;
+height: auto;
+ 
+ }
+
+ .logo{
+    text-align: left;
+
+    font-size: 25px;
+    height: auto;
+ }
+ #navegador ul{
+     list-style-type: none;
+    text-align: right;
+     width: 100%;
+     height: 100%;
+     position:absolute;
+     font-size: 2vw;
+  }
+  #navegador li{
+     display: inline;
+  }
+  #navegador li a {
+     padding: 2px 40px 2px 7px;
+     text-decoration: none;
+     color:black;
+  }
+  #navegador li a:hover{
+     background-color:white;
+     color: #ffffff;
+  }
+ .mesa{
+
+     margin-top: 300px;
+     max-width: 100%;
+     height: auto;
+ }
+ /* Cuerpo de pagina*/
+ .cuerpo{
+     padding: 20px;
+     
+ }
+ .p1{
+     margin:80px;
+     text-align: center;
+     font-size: 45px;
+     font-variant: small-caps;
+     font-feature-settings: "zero";
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size:  5vw;
+ }
+.lado{
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+td{
+    position: relative;
+    width: 95%;
+    height: auto;
+    max-width: 100%;
+}
+
